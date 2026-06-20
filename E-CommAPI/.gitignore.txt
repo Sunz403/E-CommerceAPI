@@ -1,0 +1,35 @@
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+*.tmp
+CopilotSnapshots/
+FileContentIndex/
+*.vsidx
+
+# Build outputs
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# User files
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# GitHub
+.github/
