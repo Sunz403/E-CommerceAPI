@@ -38,32 +38,6 @@ A RESTful API for managing an e-commerce platform with user authentication, prod
 - **Documentation**: Swagger/OpenAPI
 - **Serialization**: JSON & XML support
 
-## Project Structure
-
-```
-E-CommAPI/
-??? Controllers/
-?   ??? AuthController.cs          # User authentication endpoints
-?   ??? ProductsController.cs      # Product management endpoints
-?   ??? OrdersController.cs        # Order management endpoints
-??? Models/
-?   ??? User.cs                    # User entity
-?   ??? Product.cs                 # Product entity
-?   ??? Order.cs                   # Order entity
-?   ??? OrderItem.cs               # Order line items
-??? Data/
-?   ??? ECommerceContext.cs        # Entity Framework DbContext
-??? Services/
-?   ??? IApiKeyService.cs          # API Key authentication service
-?   ??? IProductService.cs         # Product business logic
-?   ??? IOrderService.cs           # Order business logic
-?   ??? ApiKeyMiddleware.cs        # API Key validation middleware
-??? Program.cs                     # Application startup configuration
-??? appsettings.json              # Configuration file
-```
-
-## Getting Started
-
 ### Prerequisites
 
 - .NET 8 SDK
